@@ -12,7 +12,7 @@ Kind (Kubernetes in Docker) kullanarak yerel bir Kubernetes cluster oluşturmak 
 kind create cluster --config kind-ingress-config.yaml
 ```
 
-![Cluster Oluşturuluyor](https://user-images.githubusercontent.com/your-username/cluster-creation.png)
+![Cluster Oluşturuluyor](https://kind.sigs.k8s.io/images/kind-create-cluster.png)
 
 ---
 
