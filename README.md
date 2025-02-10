@@ -77,7 +77,7 @@ Test için bir `Deployment`, `Service` ve `HTTPScaledObject` kaynaklarını uygu
 
 2. **Uygulama ve servis kaynaklarını yükle:**
    ```bash
-   kubectl apply -f nginx-d-s-i.yaml -n test
+   kubectl apply -f nginx-app.yaml -n test
    kubectl apply -f external-proxy-service.yaml -n test
    kubectl apply -f httpscaleobject.yaml -n test
    ```
