@@ -124,7 +124,7 @@ export default function () {
 k6 run k6-load.js
 ```
 
-![K6 Yük Testi]([https://user-images.githubusercontent.com/your-username/k6-test.png](https://imgur.com/undefined))
+![K6 Yük Testi](https://imgur.com/QG2DaBD.png)
 
 ---
 
