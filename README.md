@@ -30,7 +30,7 @@ Ingress controller'ın başarılı şekilde kurulduğunu doğrulamak için:
 kubectl get pods -n ingress-nginx
 ```
 
-![Ingress Controller Pod'ları](https://user-images.githubusercontent.com/your-username/ingress-pods.png)
+![Ingress Controller podları (https://imgur.com/7iJizRy)
 
 ---
 
@@ -44,7 +44,7 @@ helm repo update
 helm install keda kedacore/keda --namespace keda --create-namespace
 ```
 
-![KEDA Operatör Kurulumu](https://user-images.githubusercontent.com/your-username/keda-install.png)
+![KEDA Operatör Kurulumu](https://imgur.com/GzRPiTd)
 
 ---
 
@@ -62,7 +62,7 @@ HTTP Add-on bileşenlerinin çalışıp çalışmadığını kontrol etmek için
 kubectl get pods -n keda
 ```
 
-![HTTP Add-on Pod'ları](https://user-images.githubusercontent.com/your-username/addon-pods.png)
+![HTTP Add-on Pod'ları](https://imgur.com/pdyPIQw)
 
 ---
 
@@ -124,7 +124,7 @@ export default function () {
 k6 run k6-load.js
 ```
 
-![K6 Yük Testi](https://user-images.githubusercontent.com/your-username/k6-test.png)
+![K6 Yük Testi]([https://user-images.githubusercontent.com/your-username/k6-test.png](https://imgur.com/undefined))
 
 ---
 
