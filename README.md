@@ -137,6 +137,7 @@ KEDA HTTP Add-on, yük testi sırasında pod sayısını otomatik olarak ölçek
 ```bash
 kubectl get pods -w -n test
 ```
+![Podların durumu](https://i.imgur.com/uHcCHOA.png)
 
 # **ENGLISH DOCUMENT**
 
@@ -278,3 +279,4 @@ During the load test, KEDA HTTP Add-on will automatically scale the number of po
 ```bash
 kubectl get pods -w -n test
 ```
+![Pods status](https://i.imgur.com/uHcCHOA.png)
