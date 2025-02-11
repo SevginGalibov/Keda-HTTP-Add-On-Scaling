@@ -7,7 +7,7 @@ nodes:
     kind: InitConfiguration
     nodeRegistration:
       kubeletExtraArgs:
-        node-labels: "ingress-ready=true"
+        node-labels: "ingress-ready=true"	#Optional
   extraPortMappings:
   - containerPort: 80
     hostPort: 80
@@ -17,3 +17,4 @@ nodes:
     protocol: TCP
 - role: worker
 - role: worker
+

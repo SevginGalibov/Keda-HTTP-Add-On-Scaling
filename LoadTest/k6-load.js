@@ -12,7 +12,7 @@ export default function () {
     // HTTP isteği için başlıkları (headers) belirliyoruz
     const params = {
         headers: {
-            'Host': 'www.sevgin.com',   // İstekte www.sevgin.com host başlığını ekliyoruz
+            'Host': 'www.sevgin.com',   // İstekte www.sevgin.com host başlığını ekliyoruz.
         },
     };
 
@@ -22,3 +22,5 @@ export default function () {
     // 1 saniye bekliyoruz
     sleep(1);
 }
+
+
