@@ -4,21 +4,21 @@ metadata:
     name: my-nginx
 spec:
     hosts:
-        - www.sevgin.com
+        - www.sevgin.com	# App Ingress Hostname
     pathPrefixes:
         - /
     scaleTargetRef:
-        name: my-nginx
+        name: my-nginx		# App Deployment Name
         kind: Deployment
         apiVersion: apps/v1
-        service: my-nginx
-        port: 80
+        service: my-nginx	# App Service Name
+        port: 80		# App Service Port
     replicas:
         min: 1
         max: 10
     scaledownPeriod: 10
     scalingMetric:
-        requestRate:
-            granularity: 1s
-            targetValue: 2
-            window: 1m
+        requestRate:		# Based on the HTTP request rate
+            granularity: 1s	# The frequency of request measurement. 1s (every 1 second).
+            targetValue: 2	# The target request rate. Here, it is set to 2 requests per second.
+            window: 1m		# The time window for metric evaluation. It is defined as 1 minute.

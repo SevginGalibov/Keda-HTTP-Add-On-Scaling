@@ -51,6 +51,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: keda-proxy ### Keda External Service Name
+                name: keda-proxy 	### Keda External Service Name
                 port:
-                  number: 8080 ### Keda External Service Port
+                  number: 8080 		### Keda External Service Port
