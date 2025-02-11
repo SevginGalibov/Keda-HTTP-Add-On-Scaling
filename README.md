@@ -89,7 +89,7 @@ Test için bir `Deployment`, `Service` ve `HTTPScaledObject` kaynaklarını uygu
    kubectl get all -n test
    ```
 
-![Uygulama ve Servis Dağıtımı](https://user-images.githubusercontent.com/your-username/deployment-status.png)
+![Uygulama ve Servis Dağıtımı](https://i.imgur.com/LqINQjl.png)
 
 ---
 
@@ -231,7 +231,7 @@ Deploy a test `Deployment`, `Service`, and `HTTPScaledObject` resources.
    kubectl get all -n test
    ```
 
-![Application and Service Deployment](https://user-images.githubusercontent.com/your-username/deployment-status.png)
+![Application and Service Deployment](https://i.imgur.com/LqINQjl.png)
 
 ---
 
