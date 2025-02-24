@@ -1,0 +1,4 @@
+helm upgrade http-add-on kedacore/keda-add-ons-http -f values.yaml --namespace keda
+
+
+## My keda config
