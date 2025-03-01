@@ -145,7 +145,7 @@ interceptor:
     # -- The maximum number of interceptor replicas that should ever be running
     max: 50
     # -- The maximum time the interceptor should wait for an HTTP request to reach a backend before it is considered a failure
-    waitTimeout: 30s
+    waitTimeout: 60s
 
   # configuration for the ScaledObject resource for the
   # interceptor
@@ -154,11 +154,11 @@ interceptor:
     pollingInterval: 1
 
   # -- How long the interceptor waits to establish TCP connections with backends before failing a request.
-  tcpConnectTimeout: 8s
+  tcpConnectTimeout: 10s
   # -- The interceptor's connection keep alive timeout
-  keepAlive: 12s
+  keepAlive: 60s
   # -- How long the interceptor will wait between forwarding a request to a backend and receiving response headers back before failing the request
-  responseHeaderTimeout: 8s
+  responseHeaderTimeout: 60s
   # -- How often (in milliseconds) the interceptor does a full refresh of its endpoints cache. The interceptor will also use Kubernetes events to stay up-to-date with the endpoints cache changes. This duration is the maximum time it will take to see changes to the endpoints.
   endpointsCachePollingIntervalMS: 250
   # -- Whether or not the interceptor should force requests to use HTTP/2
